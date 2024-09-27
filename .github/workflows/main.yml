@@ -1,0 +1,14 @@
+            - name: Android Kernel Action
+  # You may pin to the exact commit or the version.
+  # uses: lemniskett/android-kernel-actions@9e43755bad26db59a3f78e8decb55426f0caa2e5
+  uses: lemniskett/android-kernel-actions@v1.0.1
+  with:
+    # Device architecture
+    arch: arm64
+    # Compiler to use
+    compiler: 
+    # Defconfig to use
+    defconfig: 
+    # Kernel image name
+    image: zimage
+          
