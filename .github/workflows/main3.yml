@@ -19,6 +19,6 @@ jobs:
       uses: lemniskett/android-kernel-actions@master
       with:
         arch: arm64                                   # Specify arch
-        compiler: gmp-6.2.1                               # Specify toolchain to use
+        compiler: gcc-14.0.0                               # Specify toolchain to use
         defconfig: exynos9820-d2s_defconfig                    # Specify defconfig to use
         image: Image.gz-dtb                           # Specify final build file
