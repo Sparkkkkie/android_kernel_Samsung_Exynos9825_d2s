@@ -19,6 +19,6 @@ jobs:
       uses: lemniskett/android-kernel-actions@master
       with:
         arch: arm64                                   # Specify arch
-        compiler: clang/15                            # Specify toolchain to use
+        compiler: clang/18                            # Specify toolchain to use
         defconfig: exynos9820-d2s_defconfig                    # Specify defconfig to use
         image: Image.gz-dtb                           # Specify final build file
